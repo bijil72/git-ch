@@ -1,0 +1,37 @@
+
+i
+
+input[type=text]:focus,:focus, input[type=email]:focus, select:focus {
+  transform: translateY(7px); /* Slide to the right */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Rest of your existing styles */
+
+body { font-family: monospace, sans-serif;  background-image: url('car.png'); }
+.container { max-width: 600px; margin: auto; padding: 20px; background-color: transparent; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+h2 { text-align: center; margin-bottom: 20px; }
+.section-container { display: flex; flex-direction: column; }
+.section { margin-bottom: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; transition: all 0.3s ease; }
+.section:hover { transform: translateY(-5px); }
+.section-header { font-size: 20px; margin-bottom: 10px; }
+input[type=text], input[type=date], input[type=email], select { width: 100%; padding: 10px; margin: 5px 0 20px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+input[type=submit] { width: 100%; background-color: #4CAF50; color: white; padding: 14px 20px; margin-top: 20px; border: none; border-radius: 4px; cursor: pointer; }
+input[type=submit]:hover { background-color: #45a049;
+
+}
+
+
+
+body,
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  margin: 0;
+  background-color: #212121;
+  background-image: url("https://www.yudiz.com/codepen/photography-banner/frame.png");
+}
+
+
